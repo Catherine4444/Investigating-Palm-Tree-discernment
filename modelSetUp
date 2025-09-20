@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+import numpy as np
+# for k-means
+# Though the following import is not directly being used, it is required
+# for 3D projection to work with matplotlib < 3.2
+import mpl_toolkits.mplot3d  # noqa: F401
+from sklearn.cluster import KMeans
+
+# for DBScan 
+from sklearn import metrics
+from sklearn.cluster import DBSCAN
